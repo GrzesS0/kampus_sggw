@@ -8,10 +8,10 @@ import 'filter_buttons.dart';
 class SearchHelpPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final fsb = FloatingSearchBar.of(context);
+    final fsb = new FloatingSearchBar();
     return Container(
       padding: EdgeInsets.only(
-        top: fsb.height + fsb.margins.vertical + 5,
+        top: fsb.height + 5,
       ),
       child: Column(
         children: [
