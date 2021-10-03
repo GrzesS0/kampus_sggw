@@ -4,6 +4,7 @@ abstract class  LocaleKeys {
   static const map_screen_title = 'map_screen_title';
   static const drawer_settings = 'drawer_settings';
   static const drawer_campus_rules = 'drawer_campus_rules';
+  static const drawer_credits = 'drawer_credits';
   static const search_bar_title = 'search_bar_title';
   static const find_nearby = 'find_nearby';
   static const recent = 'recent';
